@@ -1,0 +1,160 @@
+li{
+    list-style: none;
+    margin-top: 1px;
+
+}
+.a{
+    text-decoration: none;
+    color: black;
+    margin-left: 40px;
+    font-weight: 600;
+    font-size: 20px;
+}
+.a:hover{
+    color: tomato;
+}
+
+.nav{
+    height: 10vh;
+}
+.favorite{
+    height: 100vh;
+    background-image: url(bootstrap/img/bg-masthead.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+.title{
+    padding-top: 180px;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.h2:hover{
+    color: tomato;
+    cursor: pointer;
+}
+.text{
+    width: 970px;
+    font-weight: 300;
+    font-size: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.div{
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 80px;
+    border-bottom: 4px solid tomato;
+}
+.wrapper{
+    background-color: red;
+}
+.titlee{
+    padding-top: 120px;
+}
+.textt{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+}
+.divv{
+    width: 60px;
+    height: 3px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+.service-title{
+    text-align: center;
+    margin-top: 150px;
+}
+.divvv{
+    width: 60px;
+    height: 3px;
+    background-color: red;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 120px;
+}
+.i{
+    color: orange;
+    font-size: 30px;
+}
+.ul{
+    padding-bottom: 70px;
+}
+
+img{
+    height: 300px;
+}
+
+input{
+    width: 100%;
+}
+.touch{
+    width: 510px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.touch-title{
+    margin-top: 100px;
+}
+.w{
+    width: 60px;
+    height: 3px;
+    background-color: red;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.bi-phone{
+    font-size: 30px;
+}
+
+.footer{
+    margin-top: 150px;
+}
+
+
+
+@media screen and (max-width:576px) {
+    .textt{
+        width: 500px;
+    }
+    .title{
+        width: 500px;
+        font-size: 10px;
+    }
+    .text{
+        width: 550px;
+        font-size: 20px;
+    }
+    .ul{
+        flex-wrap: wrap;
+    }
+    .h2{
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media screen and (max-width:772px) {
+   .title{
+    width: 700px;
+   }
+   .text{
+    width: 700px;
+   }
+   .textt{
+    width: 700px;
+   }
+   
+}
